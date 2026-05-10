@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer.jsx";
-import MapCard from "../components/MapCard.jsx";
+import CoverCard from "../components/CoverCard.jsx";
 import maps from "../data/maps.js";
 
 function Step({ number, title, children }) {
@@ -38,7 +38,7 @@ export default function HomePage() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl">
           {maps.map((map) => (
             <Link to={`/${map.id}`} key={map.id}>
-              <MapCard name={map.label} image={map.coverimage} />
+              <CoverCard name={map.label} image={map.coverimage} />
             </Link>
           ))}
         </div>

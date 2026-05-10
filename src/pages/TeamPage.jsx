@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { getMap, getSide } from "../data/maps";
+import CoverCard from "../components/CoverCard";
 
 export default function SidePage() {
   const { mapId, side } = useParams();
@@ -23,14 +24,10 @@ export default function SidePage() {
       {sideData.utilities.length === 0 ? (
         <p className="text-neutral-400">No lineups yet for this side.</p>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 max-w-2xl">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl">
           {sideData.utilities.map((utility) => (
-            <Link
-              key={utility.id}
-              to={`/${mapId}/${side}/${utility.id}`}
-              className="px-4 py-3 bg-neutral-800 hover:bg-neutral-700 rounded-lg text-sm font-medium transition-colors ring-1 ring-white/10"
-            >
-              {utility.label}
+            <Link key={utility.id} to={`/${mapId}/${side}/${utility.id}`}>
+              <CoverCard name={utility.label} image={utility.coverimage} />
             </Link>
           ))}
         </div>
