@@ -55,7 +55,7 @@ const maps = [
           {
             id: "top-mid-smoke",
             label: "Top Mid Smoke",
-            coverimage: null,
+            coverimage: "/maps/mirage/t/top-mid-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.png"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.png"] },
@@ -101,7 +101,7 @@ const maps = [
           {
             id: "long-corner-smoke",
             label: "Long Corner Smoke",
-            coverimage: null,
+            coverimage: "/maps/dust2/t/long-corner-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn11", setang: "", images: ["spawn11.jpg"] },
               { spawnId: "spawn12", setang: "", images: ["spawn12.jpg"] },
@@ -113,7 +113,7 @@ const maps = [
           {
             id: "mid-door-smoke",
             label: "Mid Door Smoke",
-            coverimage: null,
+            coverimage: "/maps/dust2/t/mid-door-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn11", setang: "", images: ["spawn11.jpg"] },
               { spawnId: "spawn13", setang: "", images: ["spawn13.jpg"] },
@@ -145,7 +145,7 @@ const maps = [
           {
             id: "house-smoke",
             label: "House Smoke",
-            coverimage: null,
+            coverimage: "/maps/anubis/t/house-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
@@ -163,7 +163,7 @@ const maps = [
           {
             id: "ebox-smoke",
             label: "Ebox Smoke",
-            coverimage: null,
+            coverimage: "/maps/anubis/t/ebox-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
@@ -188,7 +188,7 @@ const maps = [
           {
             id: "stairs-smoke",
             label: "Stairs Smoke",
-            coverimage: null,
+            coverimage: "/maps/anubis/ct/stairs-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
@@ -199,7 +199,7 @@ const maps = [
           {
             id: "rugs-smoke",
             label: "Rugs Smoke",
-            coverimage: null,
+            coverimage: "/maps/anubis/ct/rugs-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
@@ -225,7 +225,7 @@ const maps = [
           {
             id: "red-smoke",
             label: "Red/House Smoke",
-            coverimage: null,
+            coverimage: "/maps/ancient/t/red-smoke/cover.webp",
             spawns: [
               {
                 spawnId: "spawn1",
@@ -257,7 +257,7 @@ const maps = [
           {
             id: "mid-pressure-smoke",
             label: "Mid Pressure Smoke",
-            coverimage: null,
+            coverimage: "/maps/ancient/t/mid-pressure-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
@@ -269,25 +269,13 @@ const maps = [
           {
             id: "donut-smoke",
             label: "Donut Smoke",
-            coverimage: null,
+            coverimage: "/maps/ancient/t/donut-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
               { spawnId: "spawn3", setang: "", images: ["spawn3.jpg"] },
               { spawnId: "spawn4", setang: "", images: ["spawn4.jpg"] },
               { spawnId: "spawn5", setang: "", images: ["spawn5.jpg"] },
-            ],
-          },
-          {
-            id: "brollan-molly",
-            label: "Brollan Molly",
-            coverimage: null,
-            spawns: [
-              {
-                spawnId: "spawn4",
-                setang: "",
-                images: ["spawn4-crouched.jpg", "spawn4-stand.jpg"],
-              },
             ],
           },
         ],
@@ -300,7 +288,7 @@ const maps = [
           {
             id: "b-door-smoke",
             label: "B Door Smoke",
-            coverimage: null,
+            coverimage: "/maps/ancient/ct/b-door-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2-zoom.jpg"] },
@@ -312,7 +300,7 @@ const maps = [
           {
             id: "elbow-smoke",
             label: "Elbow Smoke",
-            coverimage: null,
+            coverimage: "/maps/ancient/ct/elbow-smoke/cover.webp",
             spawns: [
               {
                 spawnId: "spawn1",
@@ -342,9 +330,9 @@ const maps = [
             ],
           },
           {
-            id: "front-cave-smoke",
-            label: "Front Cave Smoke",
-            coverimage: null,
+            id: "lane-smoke",
+            label: "Lane Smoke",
+            coverimage: "/maps/ancient/ct/lane-smoke/cover.webp",
             spawns: [{ spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] }],
           },
         ],
@@ -466,7 +454,7 @@ const maps = [
           {
             id: "mid-smoke",
             label: "Mid Smoke",
-            coverimage: null,
+            coverimage: "/maps/inferno/ct/mid-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
@@ -500,7 +488,7 @@ const maps = [
           {
             id: "monster-smoke",
             label: "Monster Smoke",
-            coverimage: null,
+            coverimage: "/maps/overpass/ct/monster-smoke/cover.webp",
             spawns: [
               { spawnId: "spawn1", setang: "", images: ["spawn1.jpg"] },
               { spawnId: "spawn2", setang: "", images: ["spawn2.jpg"] },
